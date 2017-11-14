@@ -1,0 +1,80 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <string name="app_name">Quiz Learning</string>
+
+        <string name="Player_name_edit_view">Type player name here</string>
+
+        <string name="score_display_view">Select an option</string>
+
+        <string name="score_display_view3">Select your options</string>
+
+        <string name="score_display_view4">Select your options</string>
+
+        <string name="quiz_result_greeting_message">Thanks for playing!</string>
+
+        <string name="correct_option_message">You are correct!</string>
+
+        <string name="selection_option_message">Please type one of the options</string>
+
+        <string name="wrong_option_message">Wrong Answer!</string>
+
+        <string name="question_view">When was the original Olympiad first held?</string>
+
+        <string name="option_a_question_view">776 B.C.</string>
+
+        <string name="option_b_question_view">1698</string>
+
+        <string name="option_c_question_view">1776 B.C.</string>
+
+        <string name="question_view1">In which year were the first Modern Olympics held?</string>
+
+        <string name="option_a_question_view1">Option A: 1968</string>
+
+        <string name="option_b_question_view1">Option B: 1798</string>
+
+        <string name="option_c_question_view1">Option C: 1896</string>
+
+        <string name="question_view2">What metal is used in the first-place medal in the Olympics?</string>
+
+        <string name="answer_input_hint">Type your answer here</string>
+
+        <string name="option_a_question_view2">Gold</string>
+
+        <string name="option_b_question_view2">Silver</string>
+
+        <string name="option_c_question_view2">Bronze </string>
+
+        <string name="question_view3">which of the following countries have won Olympics Gold Medal in Men\'s football?</string>
+
+        <string name="option_a_question_view3">Argentina</string>
+
+        <string name="option_b_question_view3">Austria</string>
+
+        <string name="option_c_question_view3">Brazil</string>
+
+        <string name="option_d_question_view3">South Africa</string>
+
+        <string name="question_view4">Which of these cities have hosted the Olympics games?</string>
+
+        <string name="option_a_question_view4">New York</string>
+
+        <string name="option_b_question_view4">London</string>
+
+        <string name="option_c_question_view4">Frankfurt</string>
+
+        <string name="option_d_question_view4">Atlanta</string>
+
+        <string name="Score_button_view">View Score</string>
+
+        <string name="next_button">Next</string>
+
+        <string name="reset_button">Prev</string>
+
+        <!-- This is for the quiz result player name of the app -->
+        <string name="quiz_player_name">Name: &#160;<xliff:g id= "name" example= "George">%s</xliff:g></string>
+
+        <!-- This is for the quiz result score of the app -->
+        <string name="quiz_result_score_info">Your point is: &#160;<xliff:g id= "scoreInfo" example= "5">%d</xliff:g></string>
+
+
+</resources>

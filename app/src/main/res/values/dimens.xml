@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="viewFlipper_height">520dp</dimen>
+
+    <dimen name="linearLayout_margin">10dp</dimen>
+
+    <dimen name="editTextName_margin">10dp</dimen>
+
+    <dimen name="questionTextStyle_marginBottom">6dp</dimen>
+
+    <dimen name="displayText_size">25sp</dimen>
+
+    <dimen name="radioButton_marginTop">6dp</dimen>
+    <dimen name="radioButton_marginBottom">6dp</dimen>
+
+    <dimen name="editQuestion_layout_margin">10dp</dimen>
+
+    <dimen name="checkBox_layout_marginTop">6dp</dimen>
+    <dimen name="checkBox_layout_marginBottom">6dp</dimen>
+    <dimen name="checkBox_layout_marginLeft">16dp</dimen>
+
+    <dimen name="nextButton_layout_marginBottom">24dp</dimen>
+    <dimen name="nextButton_layout_margin">24dp</dimen>
+
+    <dimen name="prevButton_layout_marginBottom">24dp</dimen>
+    <dimen name="prevButton_layout_margin">24dp</dimen>
+
+</resources>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizlearning.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            style="@style/viewFlipperStyle">
+
+            <RelativeLayout
+                android:id="@+id/Relative_main_page"
+                style="@style/relativeLayoutStyle">
+
+                <ImageView
+                    android:id="@+id/runView"
+                    style="@style/imageStyle"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/run" />
+
+                <LinearLayout
+                    style="@style/linearLayoutStyle">
+
+                    <EditText
+                        android:id="@+id/edit_text_view"
+                        style="@style/editTextStyle"
+                        android:hint="@string/Player_name_edit_view" />
+
+                    <TextView
+                        android:id="@+id/question_text_view"
+                        style="@style/questionTextStyle"
+                        android:text="@string/question_view" />
+
+                    <TextView
+                        android:id="@+id/display_text_view"
+                        style="@style/displayTextStyle"
+                        android:text="@string/score_display_view" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_options"
+                        style="@style/radioGroupStyle">
+
+                        <RadioButton
+                            android:id="@+id/option_a_radio_button"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_a_question_view"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:onClick="radioClick"/>
+                        <RadioButton
+                            android:id="@+id/option_b_radio_button"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_b_question_view"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp" />
+                        <RadioButton
+                            android:id="@+id/option_c_radio_button"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_c_question_view"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp" />
+                    </RadioGroup>
+
+                <Button
+                        android:id="@+id/view_score_view"
+                        style="@style/viewScoreButtonStyle"
+                        android:text="@string/Score_button_view"
+                        android:onClick="submitScore"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_page1"
+                style="@style/relativeLayoutStyle">
+
+                <ImageView
+                    android:id="@+id/sportsView1"
+                    style="@style/imageStyle"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/basketball" />
+
+                <LinearLayout
+                    style="@style/linearLayoutStyle">
+
+                    <EditText
+                        android:id="@+id/edit_text_view1"
+                        style="@style/editTextStyle"
+                        android:hint="@string/Player_name_edit_view" />
+
+                    <TextView
+                        android:id="@+id/question_text_view1"
+                        style="@style/questionTextStyle"
+                        android:text="@string/question_view1" />
+
+                    <TextView
+                        android:id="@+id/display_text_view1"
+                        style="@style/displayTextStyle"
+                        android:text="@string/score_display_view" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_options1"
+                        style="@style/radioGroupStyle">
+                        <RadioButton
+                            android:id="@+id/option_a_radio_button1"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_a_question_view1"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp" />
+                        <RadioButton
+                            android:id="@+id/option_b_radio_button1"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_b_question_view1"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp" />
+                        <RadioButton
+                            android:id="@+id/option_c_radio_button1"
+                            style="@style/radioButtonStyle"
+                            android:text="@string/option_c_question_view1"
+                            android:paddingEnd="24dp"
+                            android:paddingStart="24dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/view_score_view1"
+                        style="@style/viewScoreButtonStyle"
+                        android:text="@string/Score_button_view"
+                        android:onClick="submitScore1"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_page2"
+                style="@style/relativeLayoutStyle">
+
+                <ImageView
+                    android:id="@+id/sportsView2"
+                    style="@style/imageStyle"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/cycle" />
+
+                <LinearLayout
+                    style="@style/linearLayoutStyle">
+
+                    <EditText
+                        android:id="@+id/edit_text_view2"
+                        style="@style/editTextStyle"
+                        android:hint="@string/Player_name_edit_view" />
+
+                    <TextView
+                        android:id="@+id/question_text_view2"
+                        style="@style/questionTextStyle"
+                        android:text="@string/question_view2" />
+
+                    <TextView
+                        android:id="@+id/display_text_view2"
+                        style="@style/displayTextStyle"
+                        android:text="@string/score_display_view" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="233dp">
+
+                        <TextView
+                            android:id="@+id/option_a_text"
+                            style="@style/textQuestionForEdit"
+                            android:text="@string/option_a_question_view2"
+                            android:layout_alignParentTop="true" />
+
+                        <EditText
+                            android:id="@+id/edit_answer_a_view2"
+                            style="@style/editAnswerStyle"
+                            android:hint="@string/answer_input_hint"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/option_a_text"
+                            android:layout_toEndOf="@+id/option_a_text"
+                            android:layout_margin="5dp"
+                            android:padding="8dp"/>
+
+                        <TextView
+                            android:id="@+id/option_b_text"
+                            style="@style/textQuestionForEdit"
+                            android:text="@string/option_b_question_view2"
+                            android:layout_centerVertical="true" />
+
+                        <EditText
+                            android:id="@+id/edit_answer_view2"
+                            style="@style/editAnswerStyle"
+                            android:hint="@string/answer_input_hint"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/option_b_text"
+                            android:layout_toEndOf="@+id/option_b_text"
+                            android:layout_margin="5dp"
+                            android:padding="8dp"/>
+
+                        <TextView
+                            android:id="@+id/option_c_text"
+                            style="@style/textQuestionForEdit"
+                            android:text="@string/option_c_question_view2"
+                            android:layout_alignParentBottom="true" />
+
+                        <EditText
+                            android:id="@+id/edit_answer_c_view2"
+                            style="@style/editAnswerStyle"
+                            android:hint="@string/answer_input_hint"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toRightOf="@+id/option_c_text"
+                            android:layout_toEndOf="@+id/option_c_text"
+                            android:layout_margin="5dp"
+                            android:padding="8dp"/>
+
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/view_score_view2"
+                        style="@style/viewScoreButtonStyle"
+                        android:text="@string/Score_button_view" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_page3"
+                style="@style/relativeLayoutStyle">
+
+                <ImageView
+                    android:id="@+id/sportsView3"
+                    style="@style/imageStyle"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/football" />
+
+                <LinearLayout
+                    style="@style/linearLayoutStyle">
+
+                    <EditText
+                        android:id="@+id/edit_text_view3"
+                        style="@style/editTextStyle"
+                        android:hint="@string/Player_name_edit_view" />
+
+                    <TextView
+                        android:id="@+id/question_text_view3"
+                        style="@style/questionTextStyle"
+                        android:text="@string/question_view3" />
+
+                    <TextView
+                        android:id="@+id/display_text_view3"
+                        style="@style/displayTextStyle"
+                        android:text="@string/score_display_view" />
+
+                    <CheckBox
+                        android:id="@+id/option_a_checkbox_view3"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_a_question_view3"
+                        android:onClick="clickMe"/>
+
+                    <CheckBox
+                        android:id="@+id/option_b_checkbox_view3"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_b_question_view3"
+                        android:onClick="clickMe"/>
+
+                    <CheckBox
+                        android:id="@+id/option_c_checkbox_view3"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_c_question_view3"
+                        android:onClick="clickMe"/>
+
+                    <CheckBox
+                        android:id="@+id/option_d_checkbox_view3"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_d_question_view3"
+                        android:onClick="clickMe"/>
+
+
+                    <Button
+                        android:id="@+id/view_score_view3"
+                        style="@style/viewScoreButtonStyle"
+                        android:text="@string/Score_button_view"
+                        android:onClick="submitScore3"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_page4"
+                style="@style/relativeLayoutStyle">
+
+                <ImageView
+                    android:id="@+id/sportsView4"
+                    style="@style/imageStyle"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/stadium" />
+
+                <LinearLayout
+                    style="@style/linearLayoutStyle">
+
+
+                    <EditText
+                        android:id="@+id/edit_text_view4"
+                        style="@style/editTextStyle"
+                        android:hint="@string/Player_name_edit_view" />
+
+                    <TextView
+                        android:id="@+id/question_text_view4"
+                        style="@style/questionTextStyle"
+                        android:text="@string/question_view4" />
+
+                    <TextView
+                        android:id="@+id/display_text_view4"
+                        style="@style/displayTextStyle"
+                        android:text="@string/score_display_view" />
+
+                    <CheckBox
+                        android:id="@+id/option_a_checkbox_view4"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_a_question_view4"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/option_b_checkbox_view4"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_b_question_view4" />
+
+                    <CheckBox
+                        android:id="@+id/option_c_checkbox_view4"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_c_question_view4" />
+
+                    <CheckBox
+                        android:id="@+id/option_d_checkbox_view4"
+                        style="@style/checkBoxStyle"
+                        android:text="@string/option_d_question_view4" />
+
+                    <Button
+                        android:id="@+id/view_score_view4"
+                        style="@style/viewScoreButtonStyle"
+                        android:text="@string/Score_button_view"
+                        android:onClick="showScore" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </ViewFlipper>
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/nextButtonStyle"
+            android:text="@string/next_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/prev_button"
+            style="@style/prevButtonStyle"
+            android:text="@string/reset_button"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

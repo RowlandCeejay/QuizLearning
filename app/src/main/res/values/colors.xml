@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#37474F</color>
+
+    <color name="editTextStyleBackground">#E3F2FD</color>
+    <color name="questionTextStyleBackground">#0091EA</color>
+    <color name="questionTextStyleTextColor">#E3F2FD</color>
+
+    <color name="displayTextStyleBackground">#000000</color>
+    <color name="displayTextStyleTextColor">#E3F2FD</color>
+    <color name="radioButtonStyleBackground">#90CAF9</color>
+
+    <color name="editQuestionBackground">#00E676</color>
+    <color name="editQuestionTextColor">#FFFFFF</color>
+    <color name="checkBoxBackground">#FBC02D</color>
+
+    <color name="checkBoxTextColor">#000000</color>
+    <color name="viewScoreButtonBackground">#C62828</color>
+    <color name="viewScoreButtonTextColor">#FFEA00</color>
+
+    <color name="nextButtonTextColor">#FFEA00</color>
+    <color name="nextButtonBackground">#C62828</color>
+    <color name="prevButtonTextColor">#FFEA00</color>
+    <color name="prevButtonBackground">#C62828</color>
+
+</resources>

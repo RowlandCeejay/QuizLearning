@@ -1,0 +1,180 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#37474F</item>
+    </style>
+
+    <style name="viewFlipperStyle" >
+
+        <!-- This is for the view flipper style. It is used in decorating the view flipper view -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">520dp</item>
+    </style>
+
+    <style name="imageStyle" >
+
+        <!-- This is for image style. It is used in decorating the image view -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="relativeLayoutStyle" >
+
+        <!-- This is for the relative layout style. It is used in decorating the relative layout view -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="linearLayoutStyle" >
+
+        <!-- For the LinearLayout style. It is used in decorating the LinearLayout view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_margin">@dimen/linearLayout_margin</item>
+    </style>
+
+    <style name="editTextStyle" >
+
+        <!-- This is for the edit text style. It is used in decorating the edit text view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">@dimen/editTextName_margin</item>
+        <item name="android:background">@color/editTextStyleBackground</item>
+    </style>
+
+    <style name="questionTextStyle" >
+
+        <!-- This is for the question text style. It is used in decorating the question text view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/questionTextStyleBackground</item>
+        <item name="android:layout_marginBottom">@dimen/questionTextStyle_marginBottom</item>
+        <item name="android:textColor">@color/questionTextStyleTextColor</item>
+    </style>
+
+    <style name="displayTextStyle" >
+
+        <!-- This is for the question text style. It is used in decorating the question text view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/displayText_size</item>
+        <item name="android:background">@color/displayTextStyleBackground</item>
+        <item name="android:textColor">@color/displayTextStyleTextColor</item>
+
+    </style>
+
+    <style name="radioGroupStyle" >
+
+        <!-- This is for the radio group style. It is used in decorating the radio group view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="radioButtonStyle" >
+
+        <!-- This is for the radio button style. It is used in decorating the radio button view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/radioButtonStyleBackground</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">@dimen/radioButton_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/radioButton_marginBottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:onClick">radioClick</item>
+    </style>
+
+    <style name="editAnswerStyle" >
+
+        <!-- This is for the edit question style. It is used in decorating the edit text view -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">#00E676</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+    <style name="textQuestionForEdit" >
+
+        <!-- This is for the edit question style. It is used in decorating the edit text view -->
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">7dp</item>
+        <item name="android:background">#e67b00</item>
+    </style>
+
+    <style name="checkBoxStyle" >
+
+        <!-- This is for the radio button style. It is used in decorating the radio button view -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/checkBoxBackground</item>
+        <item name="android:textColor">@color/checkBoxTextColor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">@dimen/checkBox_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/checkBox_layout_marginBottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_marginLeft">@dimen/checkBox_layout_marginLeft</item>
+    </style>
+
+    <style name="viewScoreButtonStyle" >
+
+        <!-- This is for the view score button style. It is used in decorating the view score button view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/viewScoreButtonBackground</item>
+        <item name="android:textColor">@color/viewScoreButtonTextColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="nextButtonStyle" >
+
+        <!-- This is for the next button style. It is used in decorating the next button view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">@dimen/nextButton_layout_marginBottom</item>
+        <item name="android:layout_margin">@dimen/nextButton_layout_margin</item>
+        <item name="android:background">@color/nextButtonBackground</item>
+        <item name="android:textColor">@color/nextButtonTextColor</item>
+
+    </style>
+
+    <style name="prevButtonStyle" >
+
+        <!-- This is for the prev button style. It is used in decorating the prev button view -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">@dimen/prevButton_layout_marginBottom</item>
+        <item name="android:layout_margin">@dimen/prevButton_layout_margin</item>
+        <item name="android:background">@color/prevButtonBackground</item>
+        <item name="android:textColor">@color/prevButtonTextColor</item>
+
+    </style>
+</resources>
